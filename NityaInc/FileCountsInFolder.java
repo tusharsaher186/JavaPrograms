@@ -1,4 +1,3 @@
-package NityaInc;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -26,7 +25,6 @@ public class FileCountsInFolder {
 		}
 		subfolder.remove(0);
 		subfolder.forEach(subFolder -> {
-			System.err.println(subFolder.getFileName());
 			BasicFileAttributeView basicfile = Files.getFileAttributeView(subFolder, BasicFileAttributeView.class,
 					LinkOption.NOFOLLOW_LINKS);
 			try {
