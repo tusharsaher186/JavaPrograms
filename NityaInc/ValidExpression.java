@@ -1,4 +1,3 @@
-package NityaInc;
 
 public class ValidExpression {
 
